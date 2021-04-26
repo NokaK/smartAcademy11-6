@@ -1,0 +1,52 @@
+/*@import url("https://cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css");*/
+
+* {
+	margin: 0;
+}
+.box {
+	font-size: 18px;
+}
+.box:nth-child(2) {
+	position: relative;
+	background-color: green
+}
+.box:nth-child(2) .title {
+	position: absolute;
+	top: 50px;
+	left: 60px;
+	font-family: "ALK Rex Bold", sans-serif;
+	color: red;
+	/*z-index: 10*/
+}
+.second-title {
+	font-family: 'ALK Tall';
+}
+.text {
+	 font-family: 'Zen regular';
+}
+.navbar-li {
+	display: inline-block;
+	font-size: 20px;
+	margin: 10px;
+}
+.header-content {
+	background-color: pink;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	/*bottom: */
+	left: 0;
+	/*transition: translate(-50%,-50%)*/
+	z-index: 1;
+}
+.stciky {
+	background-color: purple;
+	color: #fff;
+	font-size: 20px;
+	padding: 15px;
+	width: 300px;
+	position: sticky;
+	top: 43px; 
+/*	bottom: 150px;*/
+	right: 100px;
+}
